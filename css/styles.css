@@ -1,0 +1,105 @@
+body{
+    background-color: #004689;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Dancing Script', cursive;
+    color: #FFBF36;
+    font-size: 70px;
+
+}
+
+@media(max-width:484px){
+    .title{
+        font-family: 'Dancing Script', cursive;
+        color: #FFBF36;
+        font-size: 42px;
+    
+    }
+}
+
+.date{
+    color: #FFBF36;
+    font-family: 'Heebo', sans-serif;
+    margin: 20px 0;
+}
+
+@media(max-width:484px){
+    .date{
+        color: #FFBF36;
+        font-family: 'Heebo', sans-serif;
+        margin: 20px 0;
+        font-size: 20px;
+    }
+}
+
+.description{
+    color: #FFBF36;
+    font-family: 'Heebo', sans-serif;
+}
+
+@media(max-width:484px){
+    .description{
+        color: #FFBF36;
+        font-family: 'Heebo', sans-serif;
+        font-size: 20px;
+    }
+}
+
+.carousel-img{
+    width:450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+@media(max-width:484px){
+    .carousel-img{
+        width:350px;
+        height: 350px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:320px){
+    .carousel-img{
+        width:250px;
+        height: 250px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+}
+
+.main-carousel{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.quote-carousel{
+    margin-bottom: 40px;
+}
+
+.quotes{
+    text-align: center;
+    color: #F45600;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media(max-width:484px){
+    .quotes{
+        text-align: center;
+        color: orange;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.artist{
+    color: yellow;
+    font-weight: 600;
+    margin-top: 20px;
+}
